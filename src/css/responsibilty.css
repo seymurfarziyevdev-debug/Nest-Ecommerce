@@ -1,0 +1,171 @@
+@media ( max-width :768px) {
+
+    .ebanner{
+        background-size: cover;
+        background-position: 1% 0%;
+        margin-bottom: 10%;
+        margin-top: 93%;
+        width: 470px;
+        margin-left: 28px;
+        form{
+            width: 71%;
+            margin-top: 33.1%;
+            position: absolute;
+        }
+        img{
+            
+            margin-top: 12.2%;
+        }
+        h4{
+            margin-left: 22px;
+        }
+    }
+    .featured{
+        width: 512px;
+        .featuredcontent{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            .featuredcard{
+               width: 81%;
+               margin-left: 63px;
+               button{
+                    margin-left: 70%;
+                    margin-top: -10%;
+                    padding: 15px;
+                    width: 99px;
+               }
+            }
+        }
+    }
+    .category{
+        display: flex;
+        flex-wrap: wrap;
+        height: 2700px;
+        margin-top: 1400px;
+        width: 512px;
+        .categorybox{
+            width: 80%;
+            margin-left: 10%;
+        }
+        .category-icons{
+        width: 22%;
+        margin-left: 76%;
+        }
+        h2{
+            margin-left: 54px;
+        }
+    }
+    .sellings{
+        display: flex;
+        flex-wrap: wrap;
+        width: 512px;
+        .sellingbox{
+            width: 100%;
+            margin-left: 10%;
+            .title{
+                margin: 10px;
+            }
+        }
+    }
+    .deals{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1567px;
+        margin-top: 2359px;
+        width: 512px;
+        .dealsbox{
+            width: 81%;
+            margin-left: 11%;
+            margin-bottom: 120px;
+        }
+    }
+    .bestsell{
+        .bestsellhead{
+            width: 512px;
+            .title{
+                .icons-bestseller{
+                    width: 22%;
+                }
+            }
+            .menu{
+                ul{
+                    width: 100%;
+                    display: flex;
+                    float: none;
+                    margin-top: 13px;
+                    padding-left: 22px;
+                    margin-bottom: 37px;
+                }
+            }
+        }
+         .bestsellcontent{
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: 3122px;
+                    width: 512px;
+                    .leftside{
+                        height: 275px;
+                        width: 474px;
+                        margin-left: 19px;
+                        .bannerleft{
+                            h2{
+                                font-size: 28px;
+                                margin-top: -68%;
+                            }
+                            a{
+                                margin-top: 54%;
+                                margin-left: -30%;
+                            }
+                        }
+                    }
+                    .slideside{
+                        width: 100%;
+                        margin-top: 356px;
+                        margin-left: 63px;
+                        .featuredcard{
+                            width: 100%;
+                        }
+                    }
+            }
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        .column{
+            width: 100% !important;
+            text-align: center;
+        }
+        .footerend{
+            display: flex !important;
+            flex-wrap: wrap !important;
+            h3{
+                width: 100% !important;
+            }
+            div{
+                width: 100% !important;
+                height: 150px;
+            }
+        }
+    }
+    .offers{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 520px;
+        width: 512px;
+        .offerbox{
+            width: 82%;
+            margin-left: 10%;
+            margin-bottom: 18px;
+
+            img{
+                margin-left: 35px;
+            }
+            h3{
+                margin-top: -17%;
+                margin-bottom: 17px;
+            }
+            
+        }
+    }
+}
