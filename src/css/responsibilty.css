@@ -21,20 +21,28 @@
         }
     }
     .featured{
-        width: 512px;
+        width: 100%;
         .featuredcontent{
             display: flex;
             flex-wrap: wrap;
             width: 100%;
             .featuredcard{
                width: 81%;
-               margin-left: 63px;
+               margin-left: 36px;
                button{
-                    margin-left: 70%;
+                    margin-left: 45%;
                     margin-top: -10%;
                     padding: 15px;
                     width: 99px;
                }
+            }
+        }
+        .featuredhead{
+            ul{
+                width: 93%;
+                float: right;
+                margin-top: 29px;
+                padding-left: 0;
             }
         }
     }
@@ -59,7 +67,7 @@
     .sellings{
         display: flex;
         flex-wrap: wrap;
-        width: 512px;
+        width: 100%;
         .sellingbox{
             width: 100%;
             margin-left: 10%;
@@ -71,23 +79,40 @@
     .deals{
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 1567px;
-        margin-top: 2359px;
+        margin-bottom: 940px;
+        margin-top: 1930px;
         width: 512px;
         .dealsbox{
-            width: 81%;
-            margin-left: 11%;
-            margin-bottom: 120px;
+            width: 55%;
+            margin-left: 4%;
+            margin-bottom: -20px;
+            img{
+                height: 60%;
+            }
+        }
+        h2{
+           margin-left: 23px;
         }
     }
     .bestsell{
+        width: 100%;
         .bestsellhead{
-            width: 512px;
+            width: 100%;
             .title{
                 .icons-bestseller{
-                    width: 22%;
+                    width: 37%;
+                    i{
+                        font-size: 11px;
+                        width: 32px;
+                        padding: 11px 10px;
+
+                    }
+                }
+                h2{
+                    font-size: 16px;
                 }
             }
+
             .menu{
                 ul{
                     width: 100%;
@@ -96,6 +121,9 @@
                     margin-top: 13px;
                     padding-left: 22px;
                     margin-bottom: 37px;
+                    li{
+                        font-size: 13px;
+                    }
                 }
             }
         }
@@ -103,28 +131,33 @@
                     display: flex;
                     flex-wrap: wrap;
                     height: 3122px;
-                    width: 512px;
+                    width: 100%;
                     .leftside{
                         height: 275px;
                         width: 474px;
                         margin-left: 19px;
                         .bannerleft{
                             h2{
-                                font-size: 28px;
-                                margin-top: -68%;
+                                font-size: 22px;
+                                margin-top: -67%;
                             }
                             a{
                                 margin-top: 54%;
-                                margin-left: -30%;
+                                margin-left: -37%;
+                            }
+                            img{
+                                width: 94%;
+                                height: 76%;
                             }
                         }
                     }
                     .slideside{
-                        width: 100%;
-                        margin-top: 356px;
-                        margin-left: 63px;
+                        width: 87%;
+                        margin-top: 260px;
+                        margin-left: 16px;
                         .featuredcard{
                             width: 100%;
+                            margin-bottom: 25px;
                         }
                     }
             }
